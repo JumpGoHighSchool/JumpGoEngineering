@@ -11,5 +11,8 @@ while count <= line*2-1:
         current -= 1
         count += 1
         
-for i in range(1,10):
+star = 10       
+for i in range(1,star):
+    print("*"*i)
+for i in range(star,0,-1):
     print("*"*i)
